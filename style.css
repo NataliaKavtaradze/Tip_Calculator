@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Space+Mono:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #f2f2f2;
+}
+
+.splitter {
+  margin-top: 50px;
+}
+
+.white-box {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 32px;
+  width: 375px;
+  height: 789px;
+  margin-top: 40.86px;
+  background-color: white;
+  border-radius: 43px;
+}
+
+.bill {
+  width: 47px;
+  height: 24px;
+  font-family: Spaace Mono;
+  font-weight: 700;
+  font-size: 16px;
+  color: #5E7A7D;
+  line-height: 23.7px;
+}
+
+.bill-box {
+  margin-top: 6px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  width: 311px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #F3F9FA;
+}
+
+.bill-box img {
+  padding-left: 19.26px;
+}
+
+#bill-input {
+  border: none;
+  width: 106.4px;
+  height: 36px;
+  margin-left: 158.02px;
+  font-family: Space Mono;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: right;
+  color: #00474B;
+}
+
+.select-Tip {
+  width: 140px;
+  height: 24px;
+  font-family: Space Mono;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23.7px;
+  color: #5E7A7D;
+}
+
+.procents {
+  padding-bottom: 32px;
+  padding-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 16.56px;
+}
+
+#five,
+#ten,
+#fivteen,
+#tventy-five,
+#fivty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 126px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #00474B;
+  color: white
+}
+
+.btn:hover {
+  background-color: #9FE8DF !important;
+  cursor: pointer;
+}
+
+.custom {
+  width: 146.63px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #F3F9FA;
+  color: white
+}
+
+#custom-box {
+  margin-top: 6px;
+  margin-left: 19px;
+  width: 111.49px;
+  height: 36px;
+  font-family: Space Mono;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: right;
+  color: #547878;
+  border: none;
+}
+
+.number-of-people {
+  width: 186px;
+  height: 24px;
+  font-family: Space Mono;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23.7px;
+  color: #5E7A7D;
+}
+
+.numb-of-people-box {
+  margin-top: 6px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  width: 311px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #F3F9FA;
+}
+
+.numb-of-people-box img {
+  padding-left: 19.26px;
+}
+
+#numb-of-people {
+  border: none;
+  width: 72.28px;
+  height: 36px;
+  margin-left: 192px;
+}
+
+.black-box {
+  width: 327px;
+  height: 257px;
+  border-radius: 15px;
+  background-color: #00474B
+}
+
+.first-section {
+  display: flex;
+}
+
+.Tip-Amount_person {
+  padding-top: 39px;
+  padding-left: 24px;
+}
+
+.tip-Amount {
+  width: 98px;
+  height: 24px;
+  font-family: Space Mono;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23.7px;
+  color: white;
+}
+
+.person {
+  display: block;
+  width: 64px;
+  height: 19px;
+  color: #7F9D9F;
+}
+
+#payment {
+  width: 96px;
+  height: 47px;
+  font-family: Space Mono;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47.39px;
+  text-align: center;
+  color: #26C2AE;
+  margin-top: 37px;
+  margin-left: 87px;
+}
+
+#payment-total {
+  width: 115px;
+  height: 47px;
+  font-family: Space Mono;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47.39px;
+  text-align: center;
+  color: #26C2AE;
+  margin-top: 21px;
+  margin-left: 110px;
+}
+
+.second-section {
+  display: flex;
+}
+
+#reset {
+  margin-left: 24px;
+  margin-top: 35px;
+  width: 281px;
+  height: 48px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0D686D;
+  font-family: Space Mono;
+  font-weight: 700;
+  text-align: center;
+  color: #00474B;
+}
+
+#reset:hover {
+  background-color: #9FE8DF;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1440px) {
+  .splitter {
+    margin-top: 163px;
+  }
+
+  .white-box {
+    display: flex;
+    padding-left: 48px;
+    width: 920px;
+    height: 481px;
+    border-radius: 25px;
+  }
+
+  .bill {
+    width: 40px;
+    margin-top: 45px;
+  }
+
+  .bill-box {
+    margin-bottom: 40px;
+    width: 379px;
+  }
+
+  #bill-input {
+    border: none;
+    width: 89px;
+    margin-left: 243.9px;
+  }
+
+  .select-Tip {
+    width: 118px;
+  }
+
+  .procents {
+    padding-bottom: 40px;
+    row-gap: 22px;
+    column-gap: 14px;
+  }
+
+  .number-of-people {
+    width: 157px;
+  }
+
+  .numb-of-people-box {
+    margin-bottom: 48px;
+    width: 379px;
+    background-color: #F3F9FA;
+  }
+
+  #numb-of-people {
+    width: 89px;
+    margin-left: 243px;
+  }
+
+  .black-box {
+    width: 413px;
+    height: 417px;
+  }
+
+  .Tip-Amount_person {
+    padding-top: 56px;
+    padding-left: 40px;
+  }
+
+  #payment {
+    width: 143px;
+    height: 71px;
+    font-size: 48px;
+    line-height: 71.09px;
+    text-align: right;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+
+  #payment-total {
+    width: 143px;
+    height: 71px;
+    font-size: 48px;
+    line-height: 71.09px;
+    text-align: right;
+    margin-top: 25px;
+    margin-left: 85px;
+
+  }
+
+  #reset {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 122px;
+    width: 333px;
+    border: none;
+    color: #00474B;
+  }
+
+
+}
